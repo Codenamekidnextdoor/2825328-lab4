@@ -5,7 +5,7 @@ const spinner = document.getElementById("loading-spinner");
 
 button.addEventListener('click', () => {
     const country = document.getElementById('country-input').value;
-    
+    searchCountry(country);
 });
 
 document.getElementById('country-input').addEventListener("keypress", (event)=>{
